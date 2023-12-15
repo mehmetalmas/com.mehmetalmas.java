@@ -1,5 +1,7 @@
 public class M01_Scope {
 
+    //sinif bir bina, metot bir ev, kod bir odadir
+
     int a;
     int b;
 
