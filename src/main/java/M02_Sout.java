@@ -1,8 +1,8 @@
-public class M02_Code {
+public class M02_Sout {
     public static void main(String[] args) {
         //Der Code innerhalb einer Methode, oder so etwas
 
-        System.out.println("1");  // 1 ekranda göster(yazdir) demek
+        System.out.println("1");  // ekranda 1  göster(yazdir) demek
         System.out.println("Mehmet"); // ekranda Mehmet göster(yazdir) demek
 
         System.out.println("-----------------------------");
