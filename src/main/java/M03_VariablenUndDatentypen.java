@@ -17,7 +17,7 @@ public class M03_VariablenUndDatentypen {
         c = 3;          // 3 değeri değişken olan c ye atandı.
         c = c + 1;      // c + 1  değeri değişken olan c ye atanarak deger 4 yapildi
         d = 232121321;  // 232121321  değişken olan d ye atandı.
-        e = 7;          // 3 değeri değişken olan e ye atandı.
+        e = 7;          // 7 değeri değişken olan e ye atandı.
         e = a+1;        // a+1 değeri değişken olan e ye atandı.
         s="Java";       // Java değeri değişken olan s ye atandı.
         s = "123";

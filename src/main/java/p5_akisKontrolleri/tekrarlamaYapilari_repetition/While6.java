@@ -2,7 +2,7 @@ package p5_akisKontrolleri.tekrarlamaYapilari_repetition;
 
 public class While6 {
     public static void main(String[] args) {
-        //bir diziyi yazdirma
+        //Bir dizi içindeki tüm elemanları ekrana yazdıran bir program yazın.
 
         int[] ary = {5,8,4,11};
         int i = 0;
@@ -11,6 +11,12 @@ public class While6 {
             i++;  // bunu yazmazsan sonsuz döngüye girer ve hep ilk elemani yazdirir
 
         }
+
+
+
+        //Bir sayıyı tersine çeviren bir program yazın (Örneğin, 12345 sayısı 54321 olmalıdır).
+
+
 
 
 
