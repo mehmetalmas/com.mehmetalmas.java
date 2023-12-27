@@ -35,7 +35,7 @@ public class While8 {
 
         while (kullaniciSayisi<=300){
             toplam += kullaniciSayisi;
-            kullaniciSayisi++;
+            kullaniciSayisi++;  // bu fordaki degeri arttirma gibi bir sart kosma yoksa nereye kadar gidecegini bilmez
         }
         System.out.println("toplam = " + toplam);
 
@@ -50,7 +50,7 @@ public class While8 {
         while (sonuc <= 500){
             System.out.println("Lütfen toplamak icin sayi ekleyin");
             sayi = scan.nextInt();
-            sonuc += sayi;
+            sonuc += sayi; // bu fordaki degeri arttirma gibi bir sart kosma yoksa nereye kadar gidecegini bilmez
         }
         System.out.println("girilen sayilarin toplami = " + sonuc);
 

@@ -9,7 +9,7 @@ public class While3 {
 
 
         while ( r < 0.8){ // r 0.8 den kücük ise while i calistir ve r yi yazdir
-            r = Math.random();
+            r = Math.random(); // bu fordaki degeri arttirma gibi bir sart kosma yoksa nereye kadar gidecegini bilmez
             System.out.println("while girdi ve yeni r =" + r);
         }
 

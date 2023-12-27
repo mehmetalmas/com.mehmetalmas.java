@@ -7,7 +7,7 @@ public class While5 {
 
         while (i< 25){
             System.out.println("while icindeki i deger = " + i);
-            i++;
+            i++;  // bu fordaki degeri arttirma gibi bir sart kosma yoksa nereye kadar gidecegini bilmez
         }
 
 /*

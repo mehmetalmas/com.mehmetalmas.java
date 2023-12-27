@@ -9,6 +9,7 @@ public class While6 {
         while (i < ary.length){
             System.out.println(ary[i]);
             i++;  // bunu yazmazsan sonsuz döngüye girer ve hep ilk elemani yazdirir
+                  // bu fordaki degeri arttirma gibi bir sart kosma yoksa nereye kadar gidecegini bilmez
 
         }
 

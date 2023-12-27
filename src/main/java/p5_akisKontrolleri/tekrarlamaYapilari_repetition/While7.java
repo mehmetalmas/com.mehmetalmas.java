@@ -15,7 +15,7 @@ public class While7 {
 
         while (i <= girilenSayi) {
             System.out.println("kullanıcıdan alınan sayıya kadar olan sayi = " + i);
-            i++;
+            i++;  // bu fordaki degeri arttirma gibi bir sart kosma yoksa nereye kadar gidecegini bilmez
         }
 
 
