@@ -4,7 +4,7 @@ public class While3 {
     public static void main(String[] args) {
 
 
-        double r = Math.random();
+        double r = Math.random(); // while da her zaman bir baslangic degeri tanimlaman gerekir
         System.out.println("üretilen r  = " + r);
 
 

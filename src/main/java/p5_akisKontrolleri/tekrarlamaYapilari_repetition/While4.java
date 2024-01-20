@@ -3,9 +3,8 @@ package p5_akisKontrolleri.tekrarlamaYapilari_repetition;
 public class While4 {
     public static void main(String[] args) {
 
-
-        int i = (int)(10*Math.random());
-        int j = (int)(10*Math.random());
+        int i = (int)(10*Math.random()); // while da her zaman bir baslangic degeri tanimlaman gerekir
+        int j = (int)(10*Math.random()); // while da her zaman bir baslangic degeri tanimlaman gerekir
         boolean b = i>j;
 
         System.out.println("\nilk while");
@@ -26,17 +25,11 @@ public class While4 {
             System.out.println("i = " + i + "  j = " + j);
             i = (int)(10*Math.random());
             j = (int)(10*Math.random());
-
         }
-
-
-
     }
-
 
     public static  boolean getBoolean() {
         boolean b;
         return  b = Math.random() > 0.5 ? true : false;
     }
-
 }

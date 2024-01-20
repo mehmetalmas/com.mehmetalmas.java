@@ -31,13 +31,17 @@ public class While1 {
 
         // iki basamakli sayilardan 7 ile bölünebilenleri yazdiran bir program yazin
 
-        int i = 10;
+        int i = 10;  // while da her zaman bir baslangic degeri tanimlaman gerekir
         while (i<100){
-            if(i %7==0){
+            if(i%7==0){
                 System.out.println(i);
             }
               i++;
         }
+
+
+
+
 
 
 

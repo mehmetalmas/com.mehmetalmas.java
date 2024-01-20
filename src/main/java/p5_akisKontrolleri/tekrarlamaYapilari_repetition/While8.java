@@ -8,12 +8,13 @@ public class While8 {
         System.out.println("------------------------1-------------------------------");
 
         //Bir kullanıcıdan alınan sayının faktöriyelini hesaplayan bir program yazın.
+        // iki degisken var bir girilen sayi iki faktöriyel
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen pozitif bir sayi giriniz");
 
         int girilenSayi = scan.nextInt();
-        int faktoriyel = 1;
+        int faktoriyel = 1; // while da her zaman bir baslangic degeri tanimlaman gerekir
 
         while(girilenSayi > 0){
             faktoriyel *= girilenSayi;
@@ -28,6 +29,7 @@ public class While8 {
 
 
         // kullanicidan istenilen sayidan 300 kadar olan sayilarin toplamini veren bir program yazin
+        // iki degisken var bir girilen sayi iki toplam
 
         System.out.println("Lütfen bir sayi giriniz");
         int kullaniciSayisi = scan.nextInt();
@@ -42,7 +44,8 @@ public class While8 {
 
         System.out.println("------------------------3-------------------------------");
 
-        //kullanicidan toplamak icin sayilar isteyin, istenilen sayilarin toplami 500 u gecerse sonucu yazdirin
+        // kullanicidan toplamak icin sayilar isteyin, istenilen sayilarin toplami 500 u gecerse sonucu yazdirin
+        // iki degisken var bir girilen sayi iki sonuc
 
         int sayi = 0;
         int sonuc = 0;
@@ -56,6 +59,20 @@ public class While8 {
 
 
         System.out.println("------------------------3-------------------------------");
+
+        // Kullanicidan bir sayi alin ve
+        // bu sayiyi tam bolen sayilari ve toplam kac tane olduklarini ekranda yazdirin
+
+        int input = 0;
+        int bolen = 0;
+
+        while (input%bolen==0){
+            System.out.println("Lütfen bir sayi giriniz");
+            input = scan.nextInt();
+            input++;
+            bolen++;
+
+        }
 
 
 
