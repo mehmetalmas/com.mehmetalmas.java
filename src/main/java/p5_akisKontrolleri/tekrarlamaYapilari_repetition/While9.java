@@ -16,17 +16,17 @@ public class While9 {
 
         Scanner scan = new Scanner(System.in);
 
-        boolean sifreDogrumu = false;
+        boolean sifreDogrumu = false; // while de döngüye girmek icin ihtiyaci var, cikmak icin while de en son true ata
         String sifre = "";
         char ilkHarf;
         char sonHarf;
 
         while (!sifreDogrumu) {
 
-            System.out.println("sifre olusturun");
-            sifre = scan.nextLine();
-            ilkHarf = sifre.charAt(0);
-            sonHarf = sifre.charAt(sifre.length() - 1);
+            System.out.println("ilk karakteri kücük harf, son karakteri sayi olacak sekilde sifre olusturun");
+            sifre = scan.nextLine();  //burada direk sifreyi olusturacak "mhmtAlms01" gibi ilk kücük, son sayi
+            ilkHarf = sifre.charAt(0); // ilk karakteri kontol etmek icin buna ihtiyacim
+            sonHarf = sifre.charAt(sifre.length() - 1); // son karakteri kontol etmek icin buna ihtiyacim
 
             if (ilkHarf < 'a' || ilkHarf > 'z') {
                 System.out.println("sifrenin ilk harfi kücük olmali");

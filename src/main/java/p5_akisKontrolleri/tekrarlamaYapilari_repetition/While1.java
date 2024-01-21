@@ -24,6 +24,10 @@ public class While1 {
         * mantiksal ifade birlesik ifadeden olusabilir, önemli olan ifadenin true veya false vermesidir
           while(b = i>j ? true : false) gibi
 
+        * yazacagimiz mantiksal ifadeye gör önceden atamalar yapmaliyiz ki, mantiksal ifade buna göre calissin.
+        yoksa while giremeyiz ve döngüyü calistiramayiz. Kontrol chek önceden yapildigindan önce degiskenler
+        tanimlanmali
+
 
 
          */
